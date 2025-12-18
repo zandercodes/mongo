@@ -23,6 +23,10 @@ jobs:
     name: Build MongoDB DevCore for ARM64/aarch64
     runs-on: ubuntu-latest
     
+    permissions:
+      contents: write  # Required for creating releases and uploading assets
+      packages: read   # Required for accessing Docker images
+    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
