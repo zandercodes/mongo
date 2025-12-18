@@ -22,8 +22,6 @@ Welcome to MongoDB!
 
 See [Building MongoDB](docs/building.md).
 
-For building MongoDB DevCore specifically for Raspberry Pi (ARM64/aarch64), see [Building for Raspberry Pi](docs/building-raspberrypi-aarch64.md).
-
 ## Running
 
 For command line options invoke:
